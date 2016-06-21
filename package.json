@@ -1,0 +1,32 @@
+{
+  "name": "mars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "connect-mongo": "^1.2.1",
+    "cookie-session": "^2.0.0-alpha.1",
+    "express": "^4.14.0",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puddingKing/Mars.git"
+  },
+  "author": "Shane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puddingKing/Mars/issues"
+  },
+  "homepage": "https://github.com/puddingKing/Mars#readme"
+}

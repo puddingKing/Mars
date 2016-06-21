@@ -1,0 +1,26 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		title #{title}
+		link(href="https://fonts.googleapis.com/css?family=Sriracha",rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Sriracha",rel="stylesheet")
+		link(href="/css/login.css",rel="stylesheet")
+	body(style="overflow-x:hidden;overflow-y:hidden")
+		div(id="canBox")
+			canvas(id="galaxy",width="1200",height="1000")
+		div(id="loginbox")
+			div(class="boxMenu" id="login") log in
+			div(class="boxMenu" id="register") register
+		div(id="mask",style="display:none;")
+		div(id="loginPop",style="display:none;")
+			div(class="wrap pop")
+				div(class="popTitle") log in
+				div(class="popContent")
+				div(class="popFoot")
+		div(id="registerPop",style="display:none;")
+			div(class="wrap pop")
+				div(class="popTitle")
+				div(class="popContent")
+				div(class="popFoot")
+		script(src='/galaxy.js',type='text/javascript')

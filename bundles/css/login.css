@@ -1,0 +1,20 @@
+*{padding:0px;margin:0px;text-decoration: none;}
+body{background-color: #eaeaea;}
+
+#loginbox{position: absolute;top: 550px;width: 100%;text-align: center;}
+#canBox{position: absolute;width: 100%;text-align: center;}
+.boxMenu{font-family: 'Sriracha';font-size: 20px;}
+#login{color: #FF6A6A;cursor: pointer;}
+#login:hover{color: #B0E0E6;}
+#register{color: #A8A8A8;cursor:pointer;}
+#register:hover{color:#EE7621;}
+
+#mask{position:absolute;width: 100%;height: 100%;background-color: #fff;opacity: 0.5;}
+
+#loginPop{position:absolute; text-align: center; width: 100%;}
+#registerPop{position: absolute;text-align: center;width: 100%;}
+.wrap{margin-left: auto;margin-right: auto;}
+.pop{width: 25%;height: auto;margin-top: 10%;}
+.popTitle{width: 100%;height: 50px;float:left;background-color: #fff;opacity: 1;text-align: center;font-family: 'Baloo Bhai';}
+.popContent{width: 100%;height: 480px;float: left;background-color: #fff;opacity: 0.5;}
+.popFoot{width: 100%;height: 80px;float: left;background-color: #fff;opacity: 1;}
